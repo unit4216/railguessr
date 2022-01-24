@@ -1,0 +1,17 @@
+/* Disable horizontal scroll */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Submit button hover color */
+.btn-light:hover {
+    background-color:rgb(235, 235, 235) !important;
+    border-color:rgb(235, 235, 235) !important;
+}
+
+/*Link hover color for all links on page */
+
+a:hover {
+    color:rgb(235, 235, 235) !important;
+}
