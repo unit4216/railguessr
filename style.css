@@ -4,14 +4,75 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Submit button hover color */
-.btn-light:hover {
+body {
+    background-color:rgb(163, 176, 233) !important;
+}
+
+.title {
+    font-size: 75px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Segoe UI Light;
+    color: white;
+}
+
+/*image div*/
+#railPhoto {
+    overflow:visible;
+    margin-left:200px;
+    margin-right:200px;
+    padding-top:15px;
+    padding-bottom:20px
+}
+
+/*actual image*/
+#image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:70%;
+    width:70%
+}
+
+.row {
+    overflow: visible;
+}
+
+form {
+    margin-left:300px
+}
+
+.form-group {
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+}
+
+#check {
+    width: 100px;
+    display: block;
+    margin: auto;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#check:hover {
     background-color:rgb(235, 235, 235) !important;
     border-color:rgb(235, 235, 235) !important;
 }
 
-/*Link hover color for all links on page */
+#listPopover {
+    display:block;
+    text-align:center;
+    color:white;
+}
 
-a:hover {
+#listPopover:hover {
     color:rgb(235, 235, 235) !important;
 }
+
